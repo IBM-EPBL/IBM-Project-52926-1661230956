@@ -1,0 +1,18 @@
+.product {
+  width: 100vw;
+  padding: 1rem;
+  text-align: center;
+}
+.product h1 {
+  text-align: center;
+}
+
+.product .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.product .grid .list {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
